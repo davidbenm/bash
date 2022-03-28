@@ -29,7 +29,7 @@ cleanup () {
         rm -rf $BACKUP_TARGET
         echo "RECEIVED CTRLC" >> /home/$USER/$LOGFILE
         echo ""
-        exit
+        exit 127
 }
 
 #set -x
